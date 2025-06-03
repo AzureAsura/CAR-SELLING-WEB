@@ -69,7 +69,7 @@ body, input, button {
 }
 
 body {
-  background: var(--body-second-color);
+  background: linear-gradient(to top, hsl(200, 80%, 75%) 80%, var(--white-color) 100%);
   color: var(--black-color);
 }
 
