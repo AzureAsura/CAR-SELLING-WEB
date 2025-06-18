@@ -463,7 +463,7 @@ button {
         column-gap: 32px;
     }
     #about{
-      display: none;
+      display: block;
     }
     .nav__logo img{
         padding-top: 0px;
