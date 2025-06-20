@@ -370,7 +370,7 @@ button {
   height: 320px;
   justify-self: center;
   box-shadow: var(--shadow-img);
-  /* transform: skew(-12deg); */
+  transform: skew(-12deg);
   display: grid;
   overflow: hidden;
 }
@@ -462,12 +462,31 @@ button {
         top: 624px;
         column-gap: 32px;
     }
-    #about{
-      display: block;
-    }
     .nav__logo img{
-        padding-top: 0px;
-        width: 200px;
+      padding-top: 0px;
+      width: 200px;
+    }
+    .about__container{
+      grid-template-columns: 400px 450px;
+      align-items: center;
+      column-gap: 12rem;
+      padding-bottom: 5rem;
+    }
+    .about__data, .about__title{
+      text-align: initial;
+    }
+    .about__title{
+      margin-bottom: 1rem;
+    }
+    .about__description{
+      margin-bottom: 3.5rem;
+    }
+    .about__video{
+      width: 450px;
+      height: 570px;
+    }
+    .about__file{
+      height: 580px;
     }
 }
   
