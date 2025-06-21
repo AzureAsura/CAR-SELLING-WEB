@@ -39,3 +39,5 @@ const sr = ScrollReveal({
 })
 
 sr.reveal(`.geser-kiri`,{interval: 100 })
+sr.reveal(`.geser-kanan`,{origin: 'left' })
+sr.reveal(`.geser-telor`,{origin: 'right' })
