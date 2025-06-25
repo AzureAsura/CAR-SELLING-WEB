@@ -12,7 +12,7 @@
   --black-color: hsl(0, 0%, 8%);
   --white-color: hsl(0, 0%, 100%);
   --body-color: hsl(0, 0%, 98%);
-  --body-second-color: hsl(200, 80%, 75%) 100%;;
+  --body-second-color: hsl(200, 80%, 75%);;
   --shadow-img: -8px 8px 16px hsla(0, 0%, 0%, .2);
 
   --body-font: "Montserrat", sans-serif;
@@ -242,7 +242,7 @@ button {
 .home__gradient{
     background: linear-gradient(180deg, 
                 hsla(25, 70%, 55%, 0) 80%,
-                hsl(200, 80%, 75%) 100%);
+                hsl(200, 40%, 35%) 100%);
 }
 .home__data{
     position: absolute;
@@ -343,7 +343,10 @@ button {
 
 
 .about{
-  background-color: var(--body-second-color);
+  /* background-color: var(--body-second-color); */
+background: linear-gradient(to bottom, hsl(200, 40%, 35%) 0%, hsl(210, 30%, 25%) 100%);
+
+;
 }
 .about__container{
   padding-bottom: 3rem;
@@ -355,7 +358,10 @@ button {
   margin-bottom: 16px;
 }
 .about__title span{
-  color: var(--black-color);
+  color: hsl(200, 80%, 75%);
+text-shadow: 0 0 8px hsla(200, 80%, 75%, 0.6);
+
+
 }
 .about__data{
   text-align: center;
@@ -383,7 +389,7 @@ button {
 
 
 .footer{
-  background-color: var(--body-second-color);
+  background-color: var(--white-color);
   padding-block: 2rem;
 }
 .footer__container{

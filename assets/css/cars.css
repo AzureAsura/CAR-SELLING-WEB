@@ -380,7 +380,10 @@ button {
 
 
 .footer{
-  background-color: hsl(200, 80%, 75%);
+  background-color: var(--white-color);
+  box-shadow: 0 -4px 16px hsla(0, 0%, 0%, 0.1);
+  /* box-shadow: 0 4px 16px hsla(0, 0%,  .1); */
+  /* box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1); */
   padding-block: 2rem;
   line-height: none;
 
